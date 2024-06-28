@@ -16,7 +16,7 @@ bot.addCommand(
     })
     const date = new Date()
     let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						𝚫𝐃𝐑𝐈𝚵𝚷
 ╰────────────────╯
 
 ╭────────────────
@@ -86,18 +86,18 @@ bot.addCommand(
       }
     })
     const date = new Date()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
-┃❃╭──────────────
-┃❃│ Prefix : ${PREFIX}
-┃❃│ User : ${message.pushName}
-┃❃│ Time : ${date.toLocaleTimeString()}
-┃❃│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
-┃❃│ Date : ${date.toLocaleDateString('hi')}
-┃❃│ Version : ${VERSION}
-┃❃│ Plugins : ${PLUGINS.count}
-┃❃│ Ram : ${getRam()}
-┃❃│ Uptime : ${getUptime('t')}
-┃❃╰───────────────
+    let msg = `\`\`\`╭═══ 𝚫𝐃𝐑𝐈𝚵𝚷 ═══⊷
+┃🌸╭──────────────
+┃🌸│ Prefix : ${PREFIX}
+┃🌸│ User : ${message.pushName}
+┃🌸│ Time : ${date.toLocaleTimeString()}
+┃🌸│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
+┃🌸│ Date : ${date.toLocaleDateString('hi')}
+┃🌸│ Version : ${VERSION}
+┃🌸│ Plugins : ${PLUGINS.count}
+┃🌸│ Ram : ${getRam()}
+┃🌸│ Uptime : ${getUptime('t')}
+┃🌸╰───────────────
 ╰═════════════════⊷\`\`\`\n`
 
     if (match && commands[match]) {
